@@ -2,6 +2,7 @@
     "name": "reactNodeHeroku",
     "version": "1.0.0",
     "description": "",
+    "main": "./bin/www",
     "scripts": {
         "start": "concurrently \"npm run server\" \"npm run client\"",
         "server": "node ./bin/www",
