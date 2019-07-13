@@ -40,7 +40,7 @@ app.use("/api", comments);
 app.use("/api", cameras);
 app.use("/api", books);
 app.use("/api", movies);
-app.get("/", (req, res, next) => res.redirect("/"));
+app.get("/", (req, res, next) => res.redirect("/client/public/index.html"));
 
 app.use(function(req, res, next) {
   const err = new Error("Not Found");
