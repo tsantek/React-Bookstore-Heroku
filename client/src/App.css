@@ -1,0 +1,56 @@
+/* HEADER */
+
+header {
+    background-color: #599A08;
+}
+
+.list-navbar-items {
+    padding: 10px;
+}
+
+
+/* BOOK ITEM */
+
+.book-item-container {
+    padding: 10px;
+}
+
+.card-body .published {
+    padding-top: 10px;
+}
+
+
+/* CART */
+
+.cart {
+    position: fixed;
+    padding-top: 30px;
+}
+
+.cart-item {
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.total-cart {
+    border-top: 1px dashed black;
+}
+
+.close-btn {
+    color: red;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .cart {
+        position: relative;
+        padding-top: 30px;
+    }
+}
+
+
+/* SEARCH */
+
+.search {
+    padding: 20px 0 20px 0;
+}
